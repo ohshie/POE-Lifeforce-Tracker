@@ -1,13 +1,24 @@
 using System.Globalization;
+using System.IO;
+using System.Reflection;
 using CsvHelper;
 
 namespace POE_LifeForce_Tracker;
 
+
 public class Csv
 {
+    private static string PathToData()
+    {
+        string currentDirectory = Assembly.GetExecutingAssembly().Location;
+        string filePath = Path.Combine(Path.GetDirectoryName(currentDirectory), "data.csv");
+        return filePath;
+    }
+    
     public static void Write(int[,] entryArray)
     {
-        using (var writer = new StreamWriter("data.csv"))
+        
+        using (var writer = new StreamWriter(PathToData()))
         using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
         {
             for (int i = 0; i < Program.Header.Length; i++) csv.WriteField(Program.Header[i]);
@@ -30,7 +41,7 @@ public class Csv
     public static void Read(ref int[,] entryArray)
     {
         int[,] tempArray;
-        using (var reader = new StreamReader("data.csv"))
+        using (var reader = new StreamReader(PathToData()))
         using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
         {
             int lengthOfTempArray = -1; // -1 due to header
@@ -41,7 +52,7 @@ public class Csv
             tempArray = new int[lengthOfTempArray, Program.Header.GetLength(0)];
         }
 
-        using (var reader = new StreamReader("data.csv"))
+        using (var reader = new StreamReader(PathToData()))
         using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
         {
             csv.Read();
