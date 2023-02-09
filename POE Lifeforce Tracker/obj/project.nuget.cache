@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ka9hCr2truyb4RhHPILACQxZJaBJd6qH2C7vEBMpT5ls8EEImMflaTFSB72Fwz5G23Ls6y8EZWa6bwc24Bqj0A==",
+  "success": true,
+  "projectFilePath": "/Users/stas/RiderProjects/POE Lifeforce Tracker/POE Lifeforce Tracker/POE Lifeforce Tracker.csproj",
+  "expectedPackageFiles": [
+    "/Users/stas/.nuget/packages/csvhelper/30.0.1/csvhelper.30.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
