@@ -26,6 +26,10 @@ internal class Program
             else
                 entryArray[cycle - 1, x] = int.Parse(userInput);
         }
+        DataType dataType = DataType.temp;
+        Csv.Write(entryArray, dataType);
+        Console.Clear();
+
     }
     public static void ArrayLenghtIncrease(ref int[,] entryArray)
     {
@@ -65,8 +69,12 @@ internal class Program
                     Csv.Read(ref mainDataArray);
                     break;
                 }
-                    
-                    
+                case "3":
+                    Environment.Exit(0);
+                    break;
+                default:
+                    Console.WriteLine("Please choose 1 2 or 3");
+                    continue;
             }
             
             break;
@@ -99,10 +107,17 @@ internal class Program
                 }
                 case "3":
                 {
+                    DataType dataType = DataType.perm;
                     Console.Clear();
-                    Csv.Write(mainDataArray);
+                    Csv.Write(mainDataArray, dataType);
                     break;
                 }
+                case "4":
+                    Environment.Exit(0);
+                    break;
+                default:
+                    Console.WriteLine("Please select 1, 2, 3 or 4");
+                    continue;
             }
         }
     }

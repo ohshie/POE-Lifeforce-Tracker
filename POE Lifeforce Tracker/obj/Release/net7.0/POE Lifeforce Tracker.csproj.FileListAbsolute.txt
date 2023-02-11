@@ -1,0 +1,17 @@
+/Users/stas/RiderProjects/POE Lifeforce Tracker/POE Lifeforce Tracker/bin/Release/net7.0/POE Lifeforce Tracker
+/Users/stas/RiderProjects/POE Lifeforce Tracker/POE Lifeforce Tracker/bin/Release/net7.0/POE Lifeforce Tracker.deps.json
+/Users/stas/RiderProjects/POE Lifeforce Tracker/POE Lifeforce Tracker/bin/Release/net7.0/POE Lifeforce Tracker.runtimeconfig.json
+/Users/stas/RiderProjects/POE Lifeforce Tracker/POE Lifeforce Tracker/bin/Release/net7.0/POE Lifeforce Tracker.dll
+/Users/stas/RiderProjects/POE Lifeforce Tracker/POE Lifeforce Tracker/bin/Release/net7.0/POE Lifeforce Tracker.pdb
+/Users/stas/RiderProjects/POE Lifeforce Tracker/POE Lifeforce Tracker/bin/Release/net7.0/CsvHelper.dll
+/Users/stas/RiderProjects/POE Lifeforce Tracker/POE Lifeforce Tracker/obj/Release/net7.0/POE Lifeforce Tracker.csproj.AssemblyReference.cache
+/Users/stas/RiderProjects/POE Lifeforce Tracker/POE Lifeforce Tracker/obj/Release/net7.0/POE Lifeforce Tracker.GeneratedMSBuildEditorConfig.editorconfig
+/Users/stas/RiderProjects/POE Lifeforce Tracker/POE Lifeforce Tracker/obj/Release/net7.0/POE Lifeforce Tracker.AssemblyInfoInputs.cache
+/Users/stas/RiderProjects/POE Lifeforce Tracker/POE Lifeforce Tracker/obj/Release/net7.0/POE Lifeforce Tracker.AssemblyInfo.cs
+/Users/stas/RiderProjects/POE Lifeforce Tracker/POE Lifeforce Tracker/obj/Release/net7.0/POE Lifeforce Tracker.csproj.CoreCompileInputs.cache
+/Users/stas/RiderProjects/POE Lifeforce Tracker/POE Lifeforce Tracker/obj/Release/net7.0/POE Lifeforce Tracker.csproj.CopyComplete
+/Users/stas/RiderProjects/POE Lifeforce Tracker/POE Lifeforce Tracker/obj/Release/net7.0/POE Lifeforce Tracker.dll
+/Users/stas/RiderProjects/POE Lifeforce Tracker/POE Lifeforce Tracker/obj/Release/net7.0/refint/POE Lifeforce Tracker.dll
+/Users/stas/RiderProjects/POE Lifeforce Tracker/POE Lifeforce Tracker/obj/Release/net7.0/POE Lifeforce Tracker.pdb
+/Users/stas/RiderProjects/POE Lifeforce Tracker/POE Lifeforce Tracker/obj/Release/net7.0/POE Lifeforce Tracker.genruntimeconfig.cache
+/Users/stas/RiderProjects/POE Lifeforce Tracker/POE Lifeforce Tracker/obj/Release/net7.0/ref/POE Lifeforce Tracker.dll

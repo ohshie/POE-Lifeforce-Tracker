@@ -14,6 +14,8 @@ public class DisplayData
 
         Average(entryArray);
 
+        Gained(entryArray);
+
         Console.WriteLine("Press any key to go back to the menu");
         Console.ReadLine();
     }
@@ -41,6 +43,37 @@ public class DisplayData
 
         Console.WriteLine();
         Console.WriteLine("For a total average of " + averageTotal + " per map");
+    }
+
+    public static void Gained(int[,] entryArray)
+    {
+        Console.WriteLine();
+        Console.WriteLine("Amount of lifeforce gained in each Map");
+        int[,] gainedArray = new int[entryArray.GetLength(0), entryArray.GetLength(1)];
+        
+        for (int y = 0; y < entryArray.GetLength(0); y++)
+        {
+            gainedArray[y, 0] = entryArray[y, 0];
+        }
+
+        for (int y = 1; y < entryArray.GetLength(0); y++)
+        {
+            for (int x = 1; x < entryArray.GetLength(1); x++)
+            {
+                gainedArray[y, x] = entryArray[y, x] - entryArray[y-1, x];
+            }
+        }
+
+
+        for (int y = 0; y < entryArray.GetLength(0); y++)
+        {
+            for (int x = 0; x < entryArray.GetLength(1); x++)
+            {
+                Console.Write(gainedArray[y,x]+"\t");
+            }
+            Console.WriteLine();
+        }
+        Console.WriteLine();
     }
     
 }
