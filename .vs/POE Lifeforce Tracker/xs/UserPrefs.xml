@@ -5,7 +5,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.POE_220Lifeforce_220Tracker PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="POE Lifeforce Tracker/DisplayData.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="POE Lifeforce Tracker/Program.cs">
     <Files>
       <File FileName="POE Lifeforce Tracker/Program.cs" Line="105" Column="1" />
       <File FileName="POE Lifeforce Tracker/DisplayData.cs" Line="79" Column="2" />
@@ -14,7 +14,9 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="POE Lifeforce Tracker" expanded="True">
-            <Node name="POE Lifeforce Tracker" expanded="True" />
+            <Node name="POE Lifeforce Tracker" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

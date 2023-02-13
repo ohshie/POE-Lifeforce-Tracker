@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Ka9hCr2truyb4RhHPILACQxZJaBJd6qH2C7vEBMpT5ls8EEImMflaTFSB72Fwz5G23Ls6y8EZWa6bwc24Bqj0A==",
+  "dgSpecHash": "BhwnDlrcel20cjY6n/ntyry+uAhQwkvgrq9JXw+upV4zpshjBjRTIPTsXZP8m8cDs3MpoxZIUyV1myx0dNxJmA==",
   "success": true,
   "projectFilePath": "/Users/stas/RiderProjects/POE Lifeforce Tracker/POE Lifeforce Tracker/POE Lifeforce Tracker.csproj",
   "expectedPackageFiles": [
-    "/Users/stas/.nuget/packages/csvhelper/30.0.1/csvhelper.30.0.1.nupkg.sha512"
+    "/Users/stas/.nuget/packages/csvhelper/30.0.1/csvhelper.30.0.1.nupkg.sha512",
+    "/Users/stas/.nuget/packages/newtonsoft.json/13.0.3-beta1/newtonsoft.json.13.0.3-beta1.nupkg.sha512"
   ],
   "logs": []
 }

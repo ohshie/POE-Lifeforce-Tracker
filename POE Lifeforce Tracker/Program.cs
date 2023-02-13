@@ -1,5 +1,6 @@
 ﻿using CsvHelper;
 using POE_Lifeforce_Tracker;
+using POE_Lifeforce_Tracker.PoeNinjaDataParser;
 
 namespace POE_LifeForce_Tracker;
 
@@ -9,7 +10,7 @@ internal class Program
     public static string[] Header = { "map", "Purple", "Yellow", "Blue" };
 
     // method collects lifeforce and calls checkcontinue method
-    public static void UserInputData(ref int[,] entryArray)
+    private static void UserInputData(ref int[,] entryArray)
     {
         int cycle = entryArray.GetLength(0);
 
@@ -31,7 +32,7 @@ internal class Program
         Console.Clear();
 
     }
-    public static void ArrayLenghtIncrease(ref int[,] entryArray)
+    private static void ArrayLenghtIncrease(ref int[,] entryArray)
     {
         int[,] tempArray = new int[entryArray.GetLength(0) + 1, entryArray.GetLength(1)];
 
@@ -53,7 +54,8 @@ internal class Program
                               "Lets start? (enter menu number)\n" +
                               "1. Start mapping\n" +
                               "2. Read previous data from data.csv\n" +
-                              "3. Exit");
+                              "3. Grab data from Poe Ninja\n"+
+                              "4. Exit");
             string choice = Console.ReadLine();
             switch (choice)
             {
@@ -70,10 +72,17 @@ internal class Program
                     break;
                 }
                 case "3":
+                {
+                    Console.Clear();
+                    PoeNinjaParser.GetDataFromPoeNinja(PoeDataTypes.Currency, "currency");
+                    break;
+                    
+                }
+                case "4":
                     Environment.Exit(0);
                     break;
                 default:
-                    Console.WriteLine("Please choose 1 2 or 3");
+                    Console.WriteLine("Please choose.");
                     continue;
             }
             

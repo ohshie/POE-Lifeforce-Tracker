@@ -15,3 +15,4 @@
 /Users/stas/RiderProjects/POE Lifeforce Tracker/POE Lifeforce Tracker/obj/Release/net7.0/POE Lifeforce Tracker.pdb
 /Users/stas/RiderProjects/POE Lifeforce Tracker/POE Lifeforce Tracker/obj/Release/net7.0/POE Lifeforce Tracker.genruntimeconfig.cache
 /Users/stas/RiderProjects/POE Lifeforce Tracker/POE Lifeforce Tracker/obj/Release/net7.0/ref/POE Lifeforce Tracker.dll
+/Users/stas/RiderProjects/POE Lifeforce Tracker/POE Lifeforce Tracker/bin/Release/net7.0/Newtonsoft.Json.dll
